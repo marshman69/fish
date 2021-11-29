@@ -7322,3 +7322,745 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.11.29-18.43.33:378][352]LogContentValidation: Display: Validating Blueprint /Game/Objects/Cooking/FryingPan.FryingPan
 [2021.11.29-18.43.33:378][352]LogContentValidation: Display: Validating Blueprint /Game/Objects/Food/Meat.Meat
 [2021.11.29-18.43.33:378][352]LogContentValidation: Display: Validating Blueprint /Game/Objects/Cooking/Bin.Bin
+[2021.11.29-18.44.50:412][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.11.29-18.47.14:512][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.11.29-18.47.15:231][607]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.11.29-18.52.28:485][ 28]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.29-18.52.28:488][ 28]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.29-18.52.28:488][ 28]PIE: New page: PIE session: Map (29 Nov 2021, 18:52:28)
+[2021.11.29-18.52.28:522][ 28]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-18.52.28:533][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011437s)
+[2021.11.29-18.52.28:534][ 28]LogAIModule: Creating AISystem for world Map
+[2021.11.29-18.52.28:535][ 28]LogPlayLevel: PIE: World Init took: (0.001140s)
+[2021.11.29-18.52.28:535][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Map.Map to /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map (0.012718s)
+[2021.11.29-18.52.28:570][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.11.29-18.52.28:576][ 28]LogAudio: Display: Creating Audio Device:                 Id: 68, Scope: Unique, Realtime: True
+[2021.11.29-18.52.28:576][ 28]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.29-18.52.28:576][ 28]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.29-18.52.28:576][ 28]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.29-18.52.28:576][ 28]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.29-18.52.28:576][ 28]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.29-18.52.28:576][ 28]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.29-18.52.28:576][ 28]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.29-18.52.28:576][ 28]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.29-18.52.28:577][ 28]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.11.29-18.52.28:577][ 28]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.11.29-18.52.28:577][ 28]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.29-18.52.28:577][ 28]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.29-18.52.28:582][ 28]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.29-18.52.28:582][ 28]LogAudioMixer: Display: 1: FrontRight
+[2021.11.29-18.52.28:590][ 28]LogAudioMixer: Display: Using Audio Device Speakers (Wireless Stereo Headset)
+[2021.11.29-18.52.28:590][ 28]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.29-18.52.28:590][ 28]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.29-18.52.28:590][ 28]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.29-18.52.28:590][ 28]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.29-18.52.28:590][ 28]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.29-18.52.28:590][ 28]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.29-18.52.28:591][ 28]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.29-18.52.28:591][ 28]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.29-18.52.28:591][ 28]LogInit: FAudioDevice initialized.
+[2021.11.29-18.52.28:591][ 28]LogAudio: Display: Audio Device (ID: 68) registered with world 'Map'.
+[2021.11.29-18.52.28:603][ 28]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-18.52.28:604][ 28]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2021.11.29-18.52.28
+[2021.11.29-18.52.28:605][ 28]LogWorld: Bringing up level for play took: 0.001276
+[2021.11.29-18.52.28:605][ 28]LogOnline: OSS: Creating online subsystem instance for: :Context_79
+[2021.11.29-18.52.28:606][ 28]PIE: Server logged in
+[2021.11.29-18.52.28:607][ 28]PIE: Play in editor total start time 0.119 seconds.
+[2021.11.29-18.55.57:102][817]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content: 'D:/unreal engine/UE_4.27/Engine/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/2D/Paper2D/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/FX/Niagara/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:891][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.55.59:892][ 87]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-18.56.00:024][ 87]EditorErrors: Warning: No assets to check in!
+[2021.11.29-18.56.53:354][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-18.56.53:354][720]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-18.56.53:354][720]LogWorld: UWorld::CleanupWorld for Map, bSessionEnded=true, bCleanupResources=true
+[2021.11.29-18.56.53:354][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-18.56.53:365][720]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.29-18.56.53:379][720]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-18.56.53:402][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-18.56.53:402][720]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-18.56.53:403][720]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-18.56.53:409][720]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.11.29-18.56.53:452][721]LogPlayLevel: Display: Destroying online subsystem :Context_79
+[2021.11.29-18.59.24:393][311]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2021.11.29-18.59.25:717][421]Cmd: DELETE
+[2021.11.29-18.59.25:717][421]Cmd: ACTOR DELETE
+[2021.11.29-18.59.25:719][421]LogEditorActor: Deleted Actor: TextRenderActor
+[2021.11.29-18.59.25:744][421]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2021.11.29-18.59.25:750][421]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2021.11.29-18.59.27:523][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.11.29-18.59.27:539][612]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/Map0A26E9A24361C539EAE5F6B9B1454B48.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Maps/Map.umap'
+[2021.11.29-18.59.27:560][612]AssetCheck: New page: Asset Save: Map
+[2021.11.29-18.59.27:560][612]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/Map.Map
+[2021.11.29-19.02.45:812][902]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.11.29-19.02.46:137][902]LogBlueprint: Error: [AssetLog] D:\unreal engine levels\unreal engine level\fish\fishygame\Content\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] The type of  A  is undetermined.  Connect something to  Equal (Enum)  to imply a specific type.
+[2021.11.29-19.02.46:137][902]LogBlueprint: Error: [AssetLog] D:\unreal engine levels\unreal engine level\fish\fishygame\Content\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] The type of  B  is undetermined.  Connect something to  Equal (Enum)  to imply a specific type.
+[2021.11.29-19.02.46:137][902]LogBlueprint: Error: [AssetLog] D:\unreal engine levels\unreal engine level\fish\fishygame\Content\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] The current value of the ' A ' pin is invalid: Unsupported type Wildcard on pin A
+[2021.11.29-19.02.46:137][902]LogBlueprint: Error: [AssetLog] D:\unreal engine levels\unreal engine level\fish\fishygame\Content\FirstPersonBP\Blueprints\FirstPersonCharacter.uasset: [Compiler] The current value of the ' B ' pin is invalid: Unsupported type Wildcard on pin B
+[2021.11.29-19.02.46:183][902]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.11.29-19.02.55:618][823]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.11.29-19.02.55:675][823]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.11.29-19.02.56:308][863]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/FirstPersonCharacter4492FA2248732ACC4E80CC8553C02FB1.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.11.29-19.02.56:318][863]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.11.29-19.02.56:318][863]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.11.29-19.02.59:292][173]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.29-19.02.59:295][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.29-19.02.59:295][173]PIE: New page: PIE session: Map (29 Nov 2021, 19:02:59)
+[2021.11.29-19.02.59:322][173]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.02.59:332][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009295s)
+[2021.11.29-19.02.59:332][173]LogAIModule: Creating AISystem for world Map
+[2021.11.29-19.02.59:332][173]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2021.11.29-19.02.59:332][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Map.Map to /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map (0.010293s)
+[2021.11.29-19.02.59:362][173]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.11.29-19.02.59:362][173]LogAudio: Display: Creating Audio Device:                 Id: 69, Scope: Unique, Realtime: True
+[2021.11.29-19.02.59:362][173]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.29-19.02.59:362][173]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.29-19.02.59:362][173]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.29-19.02.59:362][173]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.29-19.02.59:362][173]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.29-19.02.59:362][173]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.29-19.02.59:362][173]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.29-19.02.59:362][173]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.29-19.02.59:363][173]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.11.29-19.02.59:363][173]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.11.29-19.02.59:363][173]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.29-19.02.59:363][173]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.29-19.02.59:368][173]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.29-19.02.59:368][173]LogAudioMixer: Display: 1: FrontRight
+[2021.11.29-19.02.59:376][173]LogAudioMixer: Display: Using Audio Device Speakers (Wireless Stereo Headset)
+[2021.11.29-19.02.59:376][173]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.29-19.02.59:376][173]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.29-19.02.59:376][173]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.29-19.02.59:376][173]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.29-19.02.59:376][173]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.29-19.02.59:376][173]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.29-19.02.59:377][173]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.29-19.02.59:377][173]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.29-19.02.59:377][173]LogInit: FAudioDevice initialized.
+[2021.11.29-19.02.59:377][173]LogAudio: Display: Audio Device (ID: 69) registered with world 'Map'.
+[2021.11.29-19.02.59:384][173]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-19.02.59:385][173]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2021.11.29-19.02.59
+[2021.11.29-19.02.59:385][173]LogWorld: Bringing up level for play took: 0.001086
+[2021.11.29-19.02.59:385][173]LogOnline: OSS: Creating online subsystem instance for: :Context_80
+[2021.11.29-19.02.59:387][173]PIE: Server logged in
+[2021.11.29-19.02.59:387][173]PIE: Play in editor total start time 0.093 seconds.
+[2021.11.29-19.03.06:184][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.03.06:184][938]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.03.06:184][938]LogWorld: UWorld::CleanupWorld for Map, bSessionEnded=true, bCleanupResources=true
+[2021.11.29-19.03.06:185][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.03.06:193][938]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.29-19.03.06:197][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.03.06:220][938]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.29-19.03.06:221][938]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.03.06:222][938]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.03.06:224][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.03.06:227][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.11.29-19.03.06:249][939]LogPlayLevel: Display: Destroying online subsystem :Context_80
+[2021.11.29-19.03.24:309][750]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.11.29-19.03.24:366][750]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.11.29-19.03.24:856][771]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/FirstPersonCharacterCEF9302A413157CAEE392D96193CE2E7.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.11.29-19.03.24:866][771]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.11.29-19.03.24:866][771]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.11.29-19.04.13:610][ 35]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.11.29-19.04.13:669][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2021.11.29-19.04.14:291][ 79]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/FirstPersonCharacterDAC6ADFC475A89AC952D4BA5339CFE9E.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.11.29-19.04.14:304][ 79]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.11.29-19.04.14:304][ 79]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.11.29-19.05.01:583][416]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.11.29-19.05.01:645][416]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2021.11.29-19.05.02:252][443]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/FirstPersonCharacter608A30D9456EE7751C1F408E0F4A166B.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.11.29-19.05.02:262][443]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.11.29-19.05.02:262][443]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.11.29-19.05.05:878][768]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.29-19.05.05:881][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.29-19.05.05:881][768]PIE: New page: PIE session: Map (29 Nov 2021, 19:05:05)
+[2021.11.29-19.05.05:922][768]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.05.05:932][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009717s)
+[2021.11.29-19.05.05:933][768]LogAIModule: Creating AISystem for world Map
+[2021.11.29-19.05.05:933][768]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2021.11.29-19.05.05:933][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Map.Map to /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map (0.010952s)
+[2021.11.29-19.05.05:962][768]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.11.29-19.05.05:963][768]LogAudio: Display: Creating Audio Device:                 Id: 70, Scope: Unique, Realtime: True
+[2021.11.29-19.05.05:963][768]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.29-19.05.05:963][768]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.29-19.05.05:963][768]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.29-19.05.05:963][768]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.29-19.05.05:963][768]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.29-19.05.05:963][768]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.29-19.05.05:963][768]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.29-19.05.05:963][768]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.29-19.05.05:963][768]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.11.29-19.05.05:963][768]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.11.29-19.05.05:963][768]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.29-19.05.05:963][768]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.29-19.05.05:968][768]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.29-19.05.05:968][768]LogAudioMixer: Display: 1: FrontRight
+[2021.11.29-19.05.05:976][768]LogAudioMixer: Display: Using Audio Device Speakers (Wireless Stereo Headset)
+[2021.11.29-19.05.05:976][768]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.29-19.05.05:976][768]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.29-19.05.05:976][768]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.29-19.05.05:977][768]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.29-19.05.05:977][768]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.29-19.05.05:977][768]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.29-19.05.05:978][768]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.29-19.05.05:978][768]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.29-19.05.05:978][768]LogInit: FAudioDevice initialized.
+[2021.11.29-19.05.05:978][768]LogAudio: Display: Audio Device (ID: 70) registered with world 'Map'.
+[2021.11.29-19.05.05:985][768]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-19.05.05:986][768]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2021.11.29-19.05.05
+[2021.11.29-19.05.05:986][768]LogWorld: Bringing up level for play took: 0.001150
+[2021.11.29-19.05.05:987][768]LogOnline: OSS: Creating online subsystem instance for: :Context_81
+[2021.11.29-19.05.05:988][768]PIE: Server logged in
+[2021.11.29-19.05.05:989][768]PIE: Play in editor total start time 0.108 seconds.
+[2021.11.29-19.05.20:693][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.05.20:693][526]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.05.20:693][526]LogWorld: UWorld::CleanupWorld for Map, bSessionEnded=true, bCleanupResources=true
+[2021.11.29-19.05.20:694][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.05.20:701][526]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.29-19.05.20:706][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.05.20:730][526]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.29-19.05.20:730][526]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.05.20:731][526]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.05.20:733][526]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.05.20:736][526]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.11.29-19.05.20:806][528]LogPlayLevel: Display: Destroying online subsystem :Context_81
+[2021.11.29-19.05.34:556][770]LogEditorTransaction: Undo Change Object Pin Value
+[2021.11.29-19.05.45:668][734]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.11.29-19.05.45:728][734]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.11.29-19.05.46:486][782]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/FirstPersonCharacterAA342D3441016AE31D701996BA327C31.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.11.29-19.05.46:497][782]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.11.29-19.05.46:497][782]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.11.29-19.05.50:123][121]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.11.29-19.05.50:138][121]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2021.11.29-19.06.25:561][125]LogContentBrowser: Deferred new asset file creation: FirstPersonProjectile1
+[2021.11.29-19.06.25:582][125]LogContentBrowser: Creating deferred item: FirstPersonProjectile1
+[2021.11.29-19.06.33:034][ 20]LogContentBrowser: Attempting asset rename: FirstPersonProjectile1 -> RawFood
+[2021.11.29-19.06.33:141][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.11.29-19.06.33:245][ 20]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/RawFood7244FD2E4946E53D85EDD09888838B35.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Blueprints/RawFood.uasset'
+[2021.11.29-19.06.33:569][ 20]LogContentBrowser: End creating deferred item FirstPersonProjectile1
+[2021.11.29-19.06.33:574][ 20]AssetCheck: New page: Asset Save: RawFood
+[2021.11.29-19.06.33:574][ 20]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/RawFood.RawFood
+[2021.11.29-19.06.34:743][156]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/RawFood.RawFood
+[2021.11.29-19.07.18:210][ 61]BlueprintLog: New page: Compile RawFood
+[2021.11.29-19.07.18:254][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.11.29-19.07.18:812][108]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/RawFood6E97C7B4420F50F5C063D6A6B8BDBC1C.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Blueprints/RawFood.uasset'
+[2021.11.29-19.07.18:822][108]AssetCheck: New page: Asset Save: RawFood
+[2021.11.29-19.07.18:822][108]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/RawFood.RawFood
+[2021.11.29-19.07.29:523][367]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/RawFoodC52272734AB15FF68C3EEE98AF5B3C8C.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Blueprints/RawFood.uasset'
+[2021.11.29-19.07.29:532][367]AssetCheck: New page: Asset Save: RawFood
+[2021.11.29-19.07.29:532][367]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/RawFood.RawFood
+[2021.11.29-19.07.31:907][639]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.29-19.07.31:910][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.29-19.07.31:910][639]PIE: New page: PIE session: Map (29 Nov 2021, 19:07:31)
+[2021.11.29-19.07.31:942][639]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.07.31:953][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010335s)
+[2021.11.29-19.07.31:954][639]LogAIModule: Creating AISystem for world Map
+[2021.11.29-19.07.31:954][639]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2021.11.29-19.07.31:954][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Map.Map to /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map (0.011428s)
+[2021.11.29-19.07.31:984][639]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.11.29-19.07.31:985][639]LogAudio: Display: Creating Audio Device:                 Id: 71, Scope: Unique, Realtime: True
+[2021.11.29-19.07.31:985][639]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.29-19.07.31:985][639]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.29-19.07.31:985][639]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.29-19.07.31:985][639]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.29-19.07.31:985][639]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.29-19.07.31:985][639]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.29-19.07.31:985][639]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.29-19.07.31:985][639]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.29-19.07.31:985][639]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.11.29-19.07.31:985][639]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.11.29-19.07.31:985][639]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.29-19.07.31:985][639]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.29-19.07.31:990][639]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.29-19.07.31:990][639]LogAudioMixer: Display: 1: FrontRight
+[2021.11.29-19.07.31:998][639]LogAudioMixer: Display: Using Audio Device Speakers (Wireless Stereo Headset)
+[2021.11.29-19.07.31:998][639]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.29-19.07.31:998][639]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.29-19.07.31:998][639]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.29-19.07.31:998][639]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.29-19.07.31:998][639]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.29-19.07.31:998][639]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.29-19.07.31:999][639]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.29-19.07.31:999][639]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.29-19.07.31:999][639]LogInit: FAudioDevice initialized.
+[2021.11.29-19.07.31:999][639]LogAudio: Display: Audio Device (ID: 71) registered with world 'Map'.
+[2021.11.29-19.07.32:008][639]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-19.07.32:009][639]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2021.11.29-19.07.32
+[2021.11.29-19.07.32:009][639]LogWorld: Bringing up level for play took: 0.001096
+[2021.11.29-19.07.32:009][639]LogOnline: OSS: Creating online subsystem instance for: :Context_84
+[2021.11.29-19.07.32:011][639]PIE: Server logged in
+[2021.11.29-19.07.32:011][639]PIE: Play in editor total start time 0.101 seconds.
+[2021.11.29-19.07.38:273][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.07.38:273][382]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.07.38:273][382]LogWorld: UWorld::CleanupWorld for Map, bSessionEnded=true, bCleanupResources=true
+[2021.11.29-19.07.38:273][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.07.38:286][382]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.29-19.07.38:290][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.07.38:316][382]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.29-19.07.38:316][382]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.07.38:317][382]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.07.38:319][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.07.38:321][382]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.11.29-19.07.38:343][383]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2021.11.29-19.07.43:615][910]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.11.29-19.07.43:630][910]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2021.11.29-19.07.49:253][495]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.11.29-19.07.49:319][495]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2021.11.29-19.07.49:944][529]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/FirstPersonCharacter1AB4183D41BF6D0DA8F60D931BB66EDB.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.11.29-19.07.49:955][529]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.11.29-19.07.49:955][529]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.11.29-19.07.52:401][787]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.29-19.07.52:404][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.29-19.07.52:404][787]PIE: New page: PIE session: Map (29 Nov 2021, 19:07:52)
+[2021.11.29-19.07.52:443][787]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.07.52:453][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010374s)
+[2021.11.29-19.07.52:454][787]LogAIModule: Creating AISystem for world Map
+[2021.11.29-19.07.52:454][787]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2021.11.29-19.07.52:454][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Map.Map to /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map (0.011298s)
+[2021.11.29-19.07.52:485][787]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.11.29-19.07.52:485][787]LogAudio: Display: Creating Audio Device:                 Id: 72, Scope: Unique, Realtime: True
+[2021.11.29-19.07.52:485][787]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.29-19.07.52:485][787]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.29-19.07.52:485][787]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.29-19.07.52:485][787]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.29-19.07.52:485][787]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.29-19.07.52:485][787]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.29-19.07.52:485][787]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.29-19.07.52:485][787]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.29-19.07.52:486][787]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.11.29-19.07.52:486][787]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.11.29-19.07.52:486][787]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.29-19.07.52:486][787]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.29-19.07.52:490][787]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.29-19.07.52:490][787]LogAudioMixer: Display: 1: FrontRight
+[2021.11.29-19.07.52:497][787]LogAudioMixer: Display: Using Audio Device Speakers (Wireless Stereo Headset)
+[2021.11.29-19.07.52:497][787]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.29-19.07.52:497][787]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.29-19.07.52:497][787]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.29-19.07.52:497][787]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.29-19.07.52:497][787]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.29-19.07.52:497][787]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.29-19.07.52:499][787]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.29-19.07.52:499][787]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.29-19.07.52:499][787]LogInit: FAudioDevice initialized.
+[2021.11.29-19.07.52:499][787]LogAudio: Display: Audio Device (ID: 72) registered with world 'Map'.
+[2021.11.29-19.07.52:510][787]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-19.07.52:511][787]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2021.11.29-19.07.52
+[2021.11.29-19.07.52:511][787]LogWorld: Bringing up level for play took: 0.001144
+[2021.11.29-19.07.52:511][787]LogOnline: OSS: Creating online subsystem instance for: :Context_85
+[2021.11.29-19.07.52:513][787]PIE: Server logged in
+[2021.11.29-19.07.52:514][787]PIE: Play in editor total start time 0.11 seconds.
+[2021.11.29-19.08.01:373][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.08.01:373][844]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.08.01:373][844]LogWorld: UWorld::CleanupWorld for Map, bSessionEnded=true, bCleanupResources=true
+[2021.11.29-19.08.01:374][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.08.01:386][844]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.29-19.08.01:390][844]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.08.01:415][844]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.29-19.08.01:415][844]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.08.01:416][844]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.08.01:418][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.08.01:421][844]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.11.29-19.08.01:441][845]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2021.11.29-19.08.07:563][543]BlueprintLog: New page: Compile RawFood
+[2021.11.29-19.08.07:645][543]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.11.29-19.08.08:246][593]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/RawFoodAEA03FBE41A6524FBE4DE7B295DA6930.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Blueprints/RawFood.uasset'
+[2021.11.29-19.08.08:256][593]AssetCheck: New page: Asset Save: RawFood
+[2021.11.29-19.08.08:257][593]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/RawFood.RawFood
+[2021.11.29-19.08.10:737][862]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.29-19.08.10:740][862]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.29-19.08.10:740][862]PIE: New page: PIE session: Map (29 Nov 2021, 19:08:10)
+[2021.11.29-19.08.10:772][862]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.08.10:781][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009461s)
+[2021.11.29-19.08.10:782][862]LogAIModule: Creating AISystem for world Map
+[2021.11.29-19.08.10:782][862]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2021.11.29-19.08.10:782][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Map.Map to /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map (0.010383s)
+[2021.11.29-19.08.10:812][862]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.11.29-19.08.10:814][862]LogAudio: Display: Creating Audio Device:                 Id: 73, Scope: Unique, Realtime: True
+[2021.11.29-19.08.10:814][862]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.29-19.08.10:814][862]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.29-19.08.10:814][862]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.29-19.08.10:814][862]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.29-19.08.10:814][862]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.29-19.08.10:814][862]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.29-19.08.10:814][862]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.29-19.08.10:814][862]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.29-19.08.10:814][862]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.11.29-19.08.10:814][862]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.11.29-19.08.10:814][862]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.29-19.08.10:814][862]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.29-19.08.10:819][862]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.29-19.08.10:819][862]LogAudioMixer: Display: 1: FrontRight
+[2021.11.29-19.08.10:827][862]LogAudioMixer: Display: Using Audio Device Speakers (Wireless Stereo Headset)
+[2021.11.29-19.08.10:827][862]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.29-19.08.10:827][862]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.29-19.08.10:827][862]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.29-19.08.10:827][862]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.29-19.08.10:827][862]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.29-19.08.10:827][862]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.29-19.08.10:828][862]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.29-19.08.10:828][862]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.29-19.08.10:828][862]LogInit: FAudioDevice initialized.
+[2021.11.29-19.08.10:828][862]LogAudio: Display: Audio Device (ID: 73) registered with world 'Map'.
+[2021.11.29-19.08.10:838][862]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-19.08.10:839][862]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2021.11.29-19.08.10
+[2021.11.29-19.08.10:839][862]LogWorld: Bringing up level for play took: 0.001251
+[2021.11.29-19.08.10:840][862]LogOnline: OSS: Creating online subsystem instance for: :Context_86
+[2021.11.29-19.08.10:841][862]PIE: Server logged in
+[2021.11.29-19.08.10:842][862]PIE: Play in editor total start time 0.103 seconds.
+[2021.11.29-19.08.18:103][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.08.18:103][712]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.08.18:103][712]LogWorld: UWorld::CleanupWorld for Map, bSessionEnded=true, bCleanupResources=true
+[2021.11.29-19.08.18:104][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.08.18:117][712]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.29-19.08.18:129][712]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.08.18:153][712]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.29-19.08.18:153][712]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.08.18:154][712]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.08.18:156][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.08.18:158][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.11.29-19.08.18:192][713]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2021.11.29-19.08.23:180][266]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.11.29-19.08.23:295][266]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/RawFood_2647BE1034B366FD14134B9802650EF86.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Blueprints/RawFood_2.uasset'
+[2021.11.29-19.08.24:650][266]AssetCheck: New page: Asset Save: RawFood_2
+[2021.11.29-19.08.24:650][266]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/RawFood_2.RawFood_2
+[2021.11.29-19.08.26:416][452]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/RawFood_2.RawFood_2
+[2021.11.29-19.08.46:741][604]LogContentBrowser: Attempting asset rename: RawFood_2 -> CookedFood
+[2021.11.29-19.08.47:502][604]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/CookedFood.SKEL_CookedFood_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/RawFood_2.PackageMetaData'
+[2021.11.29-19.08.47:502][604]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/CookedFood.CookedFood_C' ref from Metadata '/Game/FirstPersonBP/Blueprints/RawFood_2.PackageMetaData'
+[2021.11.29-19.08.47:502][604]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/CookedFood.SKEL_CookedFood_C:ReceiveHit' ref from Metadata '/Game/FirstPersonBP/Blueprints/RawFood_2.PackageMetaData'
+[2021.11.29-19.08.47:502][604]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/CookedFood.SKEL_CookedFood_C:UserConstructionScript' ref from Metadata '/Game/FirstPersonBP/Blueprints/RawFood_2.PackageMetaData'
+[2021.11.29-19.08.47:502][604]LogMetaData: Removing '/Game/FirstPersonBP/Blueprints/CookedFood.CookedFood_C:ReceiveHit' ref from Metadata '/Game/FirstPersonBP/Blueprints/RawFood_2.PackageMetaData'
+[2021.11.29-19.08.47:586][604]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/CookedFood4EE233294C9084D122B209A846348856.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Blueprints/CookedFood.uasset'
+[2021.11.29-19.08.47:990][604]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2021.11.29-19.08.48:024][604]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.11.29-19.08.48:051][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.11.29-19.08.48:160][604]SourceControl: rm 'fishygame/Content/FirstPersonBP/Blueprints/RawFood_2.uasset'
+[2021.11.29-19.08.48:284][604]AssetCheck: New page: Asset Save: CookedFood
+[2021.11.29-19.08.48:284][604]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/CookedFood.CookedFood
+[2021.11.29-19.08.56:642][354]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.11.29-19.08.56:657][354]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2021.11.29-19.09.03:227][628]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.11.29-19.09.03:293][628]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2021.11.29-19.09.03:865][656]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/FirstPersonCharacter04448E7F40EE99FCE0787A82E3506384.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.11.29-19.09.03:876][656]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.11.29-19.09.03:876][656]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.11.29-19.09.44:334][918]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.11.29-19.09.44:399][918]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2021.11.29-19.09.44:976][937]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/FirstPersonCharacter0A22BA2E4618E9ADA5F61A92AFEF9333.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.11.29-19.09.44:986][937]AssetCheck: New page: Asset Save: FirstPersonCharacter
+[2021.11.29-19.09.44:986][937]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.11.29-19.09.47:063][119]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.29-19.09.47:066][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.29-19.09.47:067][119]PIE: New page: PIE session: Map (29 Nov 2021, 19:09:47)
+[2021.11.29-19.09.47:092][119]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.09.47:102][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010381s)
+[2021.11.29-19.09.47:103][119]LogAIModule: Creating AISystem for world Map
+[2021.11.29-19.09.47:103][119]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2021.11.29-19.09.47:103][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Map.Map to /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map (0.011433s)
+[2021.11.29-19.09.47:137][119]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2021.11.29-19.09.47:137][119]LogAudio: Display: Creating Audio Device:                 Id: 74, Scope: Unique, Realtime: True
+[2021.11.29-19.09.47:137][119]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.29-19.09.47:137][119]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.29-19.09.47:137][119]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.29-19.09.47:137][119]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.29-19.09.47:137][119]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.29-19.09.47:137][119]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.29-19.09.47:137][119]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.29-19.09.47:137][119]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.29-19.09.47:138][119]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.11.29-19.09.47:138][119]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.11.29-19.09.47:138][119]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.29-19.09.47:138][119]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.29-19.09.47:142][119]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.29-19.09.47:142][119]LogAudioMixer: Display: 1: FrontRight
+[2021.11.29-19.09.47:150][119]LogAudioMixer: Display: Using Audio Device Speakers (Wireless Stereo Headset)
+[2021.11.29-19.09.47:150][119]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.29-19.09.47:150][119]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.29-19.09.47:150][119]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.29-19.09.47:150][119]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.29-19.09.47:150][119]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.29-19.09.47:150][119]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.29-19.09.47:152][119]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.29-19.09.47:152][119]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.29-19.09.47:152][119]LogInit: FAudioDevice initialized.
+[2021.11.29-19.09.47:152][119]LogAudio: Display: Audio Device (ID: 74) registered with world 'Map'.
+[2021.11.29-19.09.47:161][119]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-19.09.47:162][119]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2021.11.29-19.09.47
+[2021.11.29-19.09.47:163][119]LogWorld: Bringing up level for play took: 0.001187
+[2021.11.29-19.09.47:163][119]LogOnline: OSS: Creating online subsystem instance for: :Context_90
+[2021.11.29-19.09.47:164][119]PIE: Server logged in
+[2021.11.29-19.09.47:165][119]PIE: Play in editor total start time 0.099 seconds.
+[2021.11.29-19.10.09:863][832]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.10.09:863][832]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.10.09:863][832]LogWorld: UWorld::CleanupWorld for Map, bSessionEnded=true, bCleanupResources=true
+[2021.11.29-19.10.09:863][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.10.09:877][832]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.29-19.10.09:888][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.10.09:916][832]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.11.29-19.10.09:916][832]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.10.09:917][832]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.10.09:919][832]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.10.09:922][832]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.11.29-19.10.09:952][833]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2021.11.29-19.10.11:989][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.11.29-19.10.12:095][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.11.29-19.10.12:111][ 52]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/Map740EBF50439D2C9995F766A55C57E0AC.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Maps/Map.umap'
+[2021.11.29-19.10.12:114][ 52]LogFileHelpers: Saving map 'Map' took 0.047
+[2021.11.29-19.10.12:124][ 52]AssetCheck: New page: Asset Save: Map
+[2021.11.29-19.10.12:124][ 52]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/Map.Map
+[2021.11.29-19.10.16:419][539]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.11.29-19.12.13:149][740]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.29-19.12.13:152][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.29-19.12.13:152][740]PIE: New page: PIE session: Map (29 Nov 2021, 19:12:13)
+[2021.11.29-19.12.13:182][740]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.12.13:194][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011435s)
+[2021.11.29-19.12.13:195][740]LogAIModule: Creating AISystem for world Map
+[2021.11.29-19.12.13:195][740]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2021.11.29-19.12.13:195][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Map.Map to /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map (0.012584s)
+[2021.11.29-19.12.13:229][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.11.29-19.12.13:230][740]LogAudio: Display: Creating Audio Device:                 Id: 75, Scope: Unique, Realtime: True
+[2021.11.29-19.12.13:230][740]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.29-19.12.13:230][740]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.29-19.12.13:230][740]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.29-19.12.13:230][740]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.29-19.12.13:230][740]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.29-19.12.13:230][740]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.29-19.12.13:230][740]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.29-19.12.13:230][740]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.29-19.12.13:230][740]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.11.29-19.12.13:230][740]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.11.29-19.12.13:230][740]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.29-19.12.13:230][740]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.29-19.12.13:235][740]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.29-19.12.13:235][740]LogAudioMixer: Display: 1: FrontRight
+[2021.11.29-19.12.13:242][740]LogAudioMixer: Display: Using Audio Device Speakers (Wireless Stereo Headset)
+[2021.11.29-19.12.13:243][740]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.29-19.12.13:243][740]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.29-19.12.13:243][740]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.29-19.12.13:243][740]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.29-19.12.13:243][740]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.29-19.12.13:243][740]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.29-19.12.13:244][740]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.29-19.12.13:244][740]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.29-19.12.13:244][740]LogInit: FAudioDevice initialized.
+[2021.11.29-19.12.13:244][740]LogAudio: Display: Audio Device (ID: 75) registered with world 'Map'.
+[2021.11.29-19.12.13:253][740]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-19.12.13:254][740]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2021.11.29-19.12.13
+[2021.11.29-19.12.13:254][740]LogWorld: Bringing up level for play took: 0.001157
+[2021.11.29-19.12.13:254][740]LogOnline: OSS: Creating online subsystem instance for: :Context_91
+[2021.11.29-19.12.13:256][740]PIE: Server logged in
+[2021.11.29-19.12.13:257][740]PIE: Play in editor total start time 0.104 seconds.
+[2021.11.29-19.16.00:643][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.16.00:643][269]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.16.00:643][269]LogWorld: UWorld::CleanupWorld for Map, bSessionEnded=true, bCleanupResources=true
+[2021.11.29-19.16.00:643][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.16.00:653][269]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.29-19.16.00:662][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.16.00:691][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.16.00:691][269]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.16.00:692][269]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.16.00:698][269]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2021.11.29-19.16.00:735][270]LogPlayLevel: Display: Destroying online subsystem :Context_91
+[2021.11.29-19.20.18:762][227]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.29-19.20.18:765][227]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.29-19.20.18:765][227]PIE: New page: PIE session: Map (29 Nov 2021, 19:20:18)
+[2021.11.29-19.20.18:793][227]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.20.18:804][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011284s)
+[2021.11.29-19.20.18:805][227]LogAIModule: Creating AISystem for world Map
+[2021.11.29-19.20.18:805][227]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2021.11.29-19.20.18:805][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Map.Map to /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map (0.012627s)
+[2021.11.29-19.20.18:840][227]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.11.29-19.20.18:841][227]LogAudio: Display: Creating Audio Device:                 Id: 76, Scope: Unique, Realtime: True
+[2021.11.29-19.20.18:841][227]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.29-19.20.18:841][227]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.29-19.20.18:841][227]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.29-19.20.18:841][227]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.29-19.20.18:841][227]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.29-19.20.18:841][227]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.29-19.20.18:841][227]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.29-19.20.18:841][227]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.29-19.20.18:842][227]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.11.29-19.20.18:842][227]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.11.29-19.20.18:842][227]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.29-19.20.18:842][227]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.29-19.20.18:847][227]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.29-19.20.18:847][227]LogAudioMixer: Display: 1: FrontRight
+[2021.11.29-19.20.18:856][227]LogAudioMixer: Display: Using Audio Device Speakers (Wireless Stereo Headset)
+[2021.11.29-19.20.18:856][227]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.29-19.20.18:856][227]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.29-19.20.18:856][227]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.29-19.20.18:857][227]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.29-19.20.18:857][227]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.29-19.20.18:857][227]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.29-19.20.18:858][227]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.29-19.20.18:858][227]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.29-19.20.18:858][227]LogInit: FAudioDevice initialized.
+[2021.11.29-19.20.18:858][227]LogAudio: Display: Audio Device (ID: 76) registered with world 'Map'.
+[2021.11.29-19.20.18:868][227]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-19.20.18:870][227]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2021.11.29-19.20.18
+[2021.11.29-19.20.18:870][227]LogWorld: Bringing up level for play took: 0.001271
+[2021.11.29-19.20.18:870][227]LogOnline: OSS: Creating online subsystem instance for: :Context_92
+[2021.11.29-19.20.18:872][227]PIE: Server logged in
+[2021.11.29-19.20.18:872][227]PIE: Play in editor total start time 0.107 seconds.
+[2021.11.29-19.25.20:353][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.25.20:353][381]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.25.20:354][381]LogWorld: UWorld::CleanupWorld for Map, bSessionEnded=true, bCleanupResources=true
+[2021.11.29-19.25.20:354][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.25.20:366][381]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.29-19.25.20:374][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.25.20:403][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.25.20:403][381]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.25.20:404][381]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.25.20:409][381]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.11.29-19.25.20:446][382]LogPlayLevel: Display: Destroying online subsystem :Context_92
+[2021.11.29-19.25.22:595][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2021.11.29-19.25.34:186][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content: 'D:/unreal engine/UE_4.27/Engine/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/2D/Paper2D/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/FX/Niagara/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:705][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:706][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:706][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:706][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:706][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:706][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:706][209]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.25.36:965][209]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/CookedFoodD85175304BC6233CC6056F956B7BC7F0.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Blueprints/CookedFood.uasset'
+[2021.11.29-19.25.37:008][209]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/FirstPersonCharacterADBD126D4643CDDAE359A697949DFF4E.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.11.29-19.25.37:014][209]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/RawFood2AA6A8E7486F58FB1DD5028F8251130D.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Blueprints/RawFood.uasset'
+[2021.11.29-19.25.37:043][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2021.11.29-19.25.37:058][209]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Saved/Map5C3D02F94215A286B42EE7951C947E6D.tmp' to '../../../../../unreal engine levels/unreal engine level/fish/fishygame/Content/FirstPersonBP/Maps/Map.umap'
+[2021.11.29-19.25.37:062][209]LogFileHelpers: Saving map 'Map' took 0.047
+[2021.11.29-19.25.45:088][209]LogSlate: Window 'Submit Files' being destroyed
+[2021.11.29-19.25.46:176][209]LogSourceControl: commit successful: [main 844cbbb] throwable food
+[2021.11.29-19.25.46:254][209]SourceControl: [main 844cbbb] throwable food
+[2021.11.29-19.25.46:254][209]SourceControl:  4 files changed, 0 insertions(+), 0 deletions(-)
+[2021.11.29-19.25.46:254][209]SourceControl:  create mode 100644 fishygame/Content/FirstPersonBP/Blueprints/CookedFood.uasset
+[2021.11.29-19.25.46:254][209]SourceControl:  rewrite fishygame/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset (62%)
+[2021.11.29-19.25.46:254][209]SourceControl:  create mode 100644 fishygame/Content/FirstPersonBP/Blueprints/RawFood.uasset
+[2021.11.29-19.25.46:260][209]SourceControl: Commited [main 844cbbb] throwable food.
+[2021.11.29-19.25.46:305][210]AssetCheck: New page: Asset Save: multiple assets
+[2021.11.29-19.25.46:305][210]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.11.29-19.25.46:305][210]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/Map.Map
+[2021.11.29-19.25.46:305][210]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/RawFood.RawFood
+[2021.11.29-19.25.46:305][210]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/CookedFood.CookedFood
+[2021.11.29-19.26.09:331][917]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.29-19.26.09:334][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.29-19.26.09:334][917]PIE: New page: PIE session: Map (29 Nov 2021, 19:26:09)
+[2021.11.29-19.26.09:362][917]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.26.09:371][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009315s)
+[2021.11.29-19.26.09:372][917]LogAIModule: Creating AISystem for world Map
+[2021.11.29-19.26.09:373][917]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2021.11.29-19.26.09:373][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Map.Map to /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map (0.010447s)
+[2021.11.29-19.26.09:405][917]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.11.29-19.26.09:406][917]LogAudio: Display: Creating Audio Device:                 Id: 77, Scope: Unique, Realtime: True
+[2021.11.29-19.26.09:406][917]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.11.29-19.26.09:406][917]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.11.29-19.26.09:406][917]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.11.29-19.26.09:406][917]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.11.29-19.26.09:406][917]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.11.29-19.26.09:406][917]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.11.29-19.26.09:406][917]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.11.29-19.26.09:406][917]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.11.29-19.26.09:407][917]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.11.29-19.26.09:407][917]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.11.29-19.26.09:407][917]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.11.29-19.26.09:407][917]LogAudioMixer: Display: Initializing audio mixer.
+[2021.11.29-19.26.09:411][917]LogAudioMixer: Display: 0: FrontLeft
+[2021.11.29-19.26.09:411][917]LogAudioMixer: Display: 1: FrontRight
+[2021.11.29-19.26.09:420][917]LogAudioMixer: Display: Using Audio Device Speakers (Wireless Stereo Headset)
+[2021.11.29-19.26.09:420][917]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.11.29-19.26.09:420][917]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.11.29-19.26.09:420][917]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.11.29-19.26.09:420][917]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.11.29-19.26.09:420][917]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.11.29-19.26.09:420][917]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.11.29-19.26.09:421][917]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.11.29-19.26.09:421][917]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.11.29-19.26.09:421][917]LogInit: FAudioDevice initialized.
+[2021.11.29-19.26.09:421][917]LogAudio: Display: Audio Device (ID: 77) registered with world 'Map'.
+[2021.11.29-19.26.09:431][917]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-19.26.09:433][917]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2021.11.29-19.26.09
+[2021.11.29-19.26.09:433][917]LogWorld: Bringing up level for play took: 0.001224
+[2021.11.29-19.26.09:433][917]LogOnline: OSS: Creating online subsystem instance for: :Context_93
+[2021.11.29-19.26.09:435][917]PIE: Server logged in
+[2021.11.29-19.26.09:435][917]PIE: Play in editor total start time 0.102 seconds.
+[2021.11.29-19.26.43:274][968]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.26.43:274][968]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_Map
+[2021.11.29-19.26.43:274][968]LogWorld: UWorld::CleanupWorld for Map, bSessionEnded=true, bCleanupResources=true
+[2021.11.29-19.26.43:275][968]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.26.43:286][968]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.11.29-19.26.43:297][968]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.11.29-19.26.43:325][968]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.11.29-19.26.43:325][968]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.26.43:326][968]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.11.29-19.26.43:331][968]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.11.29-19.26.43:364][969]LogPlayLevel: Display: Destroying online subsystem :Context_93
+[2021.11.29-19.26.45:624][218]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content: 'D:/unreal engine/UE_4.27/Engine/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/2D/Paper2D/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/FX/Niagara/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:365][488]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/fish'
+[2021.11.29-19.26.48:497][488]EditorErrors: Warning: No assets to check in!
