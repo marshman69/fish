@@ -5,7 +5,7 @@
 			"app_key": "application.generated.ue.first-person-bp-game-template-17735300.ue4editor.exe",
 			"launch_type": "url",
 			"url": "steam://launch/",
-			"action_manifest_path": "D:/unreal engine levels/unreal engine level/fish/fishygame/Config/SteamVRBindings/steamvr_manifest.json",
+			"action_manifest_path": "D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Config/SteamVRBindings/steamvr_manifest.json",
 			"strings":
 			{
 				"en_us":
