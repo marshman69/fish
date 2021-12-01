@@ -5170,3 +5170,315 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.01-13.57.49:723][302]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/Map1.Map1
 [2021.12.01-13.57.49:723][302]LogContentValidation: Display: Validating Blueprint /Game/Objects/Cooking/FryingPan.FryingPan
 [2021.12.01-13.57.49:723][302]LogContentValidation: Display: Validating Blueprint /Game/Objects/Food/Meat.Meat
+[2021.12.01-15.07.06:826][861]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.01-15.07.06:832][861]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.01-15.07.06:832][861]PIE: New page: PIE session: Map1 (1 Dec 2021, 15:07:06)
+[2021.12.01-15.07.06:866][861]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Map1
+[2021.12.01-15.07.06:881][861]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014704s)
+[2021.12.01-15.07.06:882][861]LogAIModule: Creating AISystem for world Map1
+[2021.12.01-15.07.06:883][861]LogPlayLevel: PIE: World Init took: (0.001870s)
+[2021.12.01-15.07.06:883][861]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Map1.Map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_Map1.Map1 (0.016742s)
+[2021.12.01-15.07.06:911][861]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2021.12.01-15.07.06:913][861]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2021.12.01-15.07.06:913][861]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.01-15.07.06:913][861]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.01-15.07.06:913][861]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.01-15.07.06:913][861]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.01-15.07.06:913][861]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.01-15.07.06:913][861]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.01-15.07.06:913][861]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.01-15.07.06:913][861]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.01-15.07.06:914][861]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.12.01-15.07.06:914][861]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.12.01-15.07.06:914][861]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.01-15.07.06:914][861]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.01-15.07.06:922][861]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.01-15.07.06:922][861]LogAudioMixer: Display: 1: FrontRight
+[2021.12.01-15.07.06:934][861]LogAudioMixer: Display: Using Audio Device Index HMD (NVIDIA High Definition Audio)
+[2021.12.01-15.07.06:934][861]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.01-15.07.06:934][861]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.01-15.07.06:934][861]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.01-15.07.06:935][861]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.01-15.07.06:935][861]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.01-15.07.06:935][861]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.01-15.07.06:936][861]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.01-15.07.06:936][861]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.01-15.07.06:936][861]LogInit: FAudioDevice initialized.
+[2021.12.01-15.07.06:936][861]LogAudio: Display: Audio Device (ID: 41) registered with world 'Map1'.
+[2021.12.01-15.07.06:946][861]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.12.01-15.07.06:949][861]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2021.12.01-15.07.06
+[2021.12.01-15.07.06:950][861]LogWorld: Bringing up level for play took: 0.002971
+[2021.12.01-15.07.06:950][861]LogOnline: OSS: Creating online subsystem instance for: :Context_89
+[2021.12.01-15.07.06:952][861]PIE: Server logged in
+[2021.12.01-15.07.06:953][861]PIE: Play in editor total start time 0.122 seconds.
+[2021.12.01-15.07.26:831][239]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=118.405 Y=-25.539 Z=249.431] for [Shark_actor_C]
+[2021.12.01-15.07.29:067][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-15.07.29:067][502]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_Map1
+[2021.12.01-15.07.29:067][502]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2021.12.01-15.07.29:069][502]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-15.07.29:075][502]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.01-15.07.29:092][502]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-15.07.29:113][502]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-15.07.29:113][502]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-15.07.29:114][502]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-15.07.29:119][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.12.01-15.07.29:163][503]LogPlayLevel: Display: Destroying online subsystem :Context_89
+[2021.12.01-15.07.34:129][  0]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/CookedFood.CookedFood
+[2021.12.01-15.07.57:322][675]BlueprintLog: New page: Compile CookedFood
+[2021.12.01-15.07.57:362][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.12.01-15.07.58:055][710]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/CookedFood36F1ECFA463D78C58A7E7583090C177E.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Blueprints/CookedFood.uasset'
+[2021.12.01-15.07.58:070][710]AssetCheck: New page: Asset Save: CookedFood
+[2021.12.01-15.07.58:070][710]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/CookedFood.CookedFood
+[2021.12.01-15.08.03:900][216]Cmd: TRANSACTION UNDO
+[2021.12.01-15.08.03:900][216]LogEditorTransaction: Undo Edit Static Mesh
+[2021.12.01-15.08.08:141][574]LogEditorTransaction: Redo Edit Static Mesh
+[2021.12.01-15.08.26:530][921]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/CookedFood4F8BDAA24C5E3F3DF011C98DC3B698FE.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Blueprints/CookedFood.uasset'
+[2021.12.01-15.08.26:542][921]AssetCheck: New page: Asset Save: CookedFood
+[2021.12.01-15.08.26:542][921]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/CookedFood.CookedFood
+[2021.12.01-15.08.30:325][173]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/RawFood.RawFood
+[2021.12.01-15.08.36:621][577]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/BasicShapes: 'D:/unreal engine/UE_4.27/Engine/Content/BasicShapes' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.08.38:160][664]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.08.38:160][664]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/BasicShapes: 'D:/unreal engine/UE_4.27/Engine/Content/BasicShapes' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.08.38:160][664]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/Cube.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/Cube.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.08.38:160][664]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.08.41:155][864]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.08.41:155][864]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/BasicShapes: 'D:/unreal engine/UE_4.27/Engine/Content/BasicShapes' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.08.41:155][864]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/Cube.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/Cube.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.08.41:155][864]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.08.47:450][267]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/MapTemplates/Materials: 'D:/unreal engine/UE_4.27/Engine/Content/MapTemplates/Materials' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.08.47:450][267]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/BasicShapes/BasicShapeMaterial.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/BasicShapes/BasicShapeMaterial.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.08.47:450][267]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.08.47:450][267]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineMaterials/BlinkingCaret.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineMaterials/BlinkingCaret.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.09.12:583][212]BlueprintLog: New page: Compile RawFood
+[2021.12.01-15.09.12:636][212]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.12.01-15.09.13:380][252]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/RawFood2F70D8D84A3C579A3FD49A82DD2B604C.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Blueprints/RawFood.uasset'
+[2021.12.01-15.09.13:394][252]AssetCheck: New page: Asset Save: RawFood
+[2021.12.01-15.09.13:394][252]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/RawFood.RawFood
+[2021.12.01-15.09.59:892][638]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/BurntFood.BurntFood
+[2021.12.01-15.10.05:539][ 24]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.10.05:539][ 24]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/BasicShapes: 'D:/unreal engine/UE_4.27/Engine/Content/BasicShapes' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.10.05:539][ 24]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/Cube.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/Cube.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.10.05:539][ 24]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.10.18:972][ 23]BlueprintLog: New page: Compile BurntFood
+[2021.12.01-15.10.19:023][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.12.01-15.10.19:577][ 48]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/BurntFood14F59EFD44F2E612BEA6A4B8D23C2814.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Blueprints/BurntFood.uasset'
+[2021.12.01-15.10.19:589][ 48]AssetCheck: New page: Asset Save: BurntFood
+[2021.12.01-15.10.19:589][ 48]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/BurntFood.BurntFood
+[2021.12.01-15.10.22:698][254]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/ChoppedFood.ChoppedFood
+[2021.12.01-15.10.29:047][701]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.10.29:048][701]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/BasicShapes: 'D:/unreal engine/UE_4.27/Engine/Content/BasicShapes' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.10.29:048][701]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/Cube.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/Cube.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.10.29:048][701]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.10.34:193][ 44]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/MapTemplates/Materials: 'D:/unreal engine/UE_4.27/Engine/Content/MapTemplates/Materials' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.10.34:193][ 44]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/BasicShapes/BasicShapeMaterial.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/BasicShapes/BasicShapeMaterial.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.10.34:193][ 44]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.10.34:193][ 44]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineMaterials/BlinkingCaret.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineMaterials/BlinkingCaret.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.10.40:661][530]LogEditorTransaction: Undo Replace component used material
+[2021.12.01-15.10.45:453][932]LogEditorTransaction: Redo Replace component used material
+[2021.12.01-15.10.51:209][439]LogEditorTransaction: Undo Replace component used material
+[2021.12.01-15.10.52:246][496]BlueprintLog: New page: Compile ChoppedFood
+[2021.12.01-15.10.52:298][496]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2021.12.01-15.10.52:927][533]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/ChoppedFood941CD1B44DD24C76AB4987A44CC47020.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Blueprints/ChoppedFood.uasset'
+[2021.12.01-15.10.52:944][533]AssetCheck: New page: Asset Save: ChoppedFood
+[2021.12.01-15.10.52:944][533]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/ChoppedFood.ChoppedFood
+[2021.12.01-15.11.00:449][115]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/ChoppedFoodB.ChoppedFoodB
+[2021.12.01-15.11.06:373][515]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.06:373][515]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/BasicShapes: 'D:/unreal engine/UE_4.27/Engine/Content/BasicShapes' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.06:373][515]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/Cube.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/Cube.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.06:373][515]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.12:693][926]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/M_Mat_UnrealTech.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/M_Mat_UnrealTech.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.19:241][391]BlueprintLog: New page: Compile ChoppedFoodB
+[2021.12.01-15.11.19:297][391]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.12.01-15.11.20:095][434]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/ChoppedFoodB3BC3359647627D8A4CAE87BE4AE6C0D2.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Blueprints/ChoppedFoodB.uasset'
+[2021.12.01-15.11.20:105][434]AssetCheck: New page: Asset Save: ChoppedFoodB
+[2021.12.01-15.11.20:105][434]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/ChoppedFoodB.ChoppedFoodB
+[2021.12.01-15.11.23:037][640]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/ChoppedFoodC.ChoppedFoodC
+[2021.12.01-15.11.27:887][946]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.27:887][946]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/BasicShapes: 'D:/unreal engine/UE_4.27/Engine/Content/BasicShapes' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.27:887][946]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/Cube.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/Cube.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.27:887][946]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.32:008][207]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_BaseColor_Constant.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_BaseColor_Constant.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.32:008][207]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/MapTemplates/Sky/M_BlackBackground.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/MapTemplates/Sky/M_BlackBackground.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.39:513][755]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/Devices/Generic/GenericHMD.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/Devices/Generic/GenericHMD.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.46:980][256]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineMaterials/FogVolumeMaterial.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineMaterials/FogVolumeMaterial.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.46:980][256]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EditorLandscapeResources/FoliageBrushSphereMaterial.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EditorLandscapeResources/FoliageBrushSphereMaterial.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.46:980][256]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EditorMaterials/Frac_ElementMaterial.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EditorMaterials/Frac_ElementMaterial.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.46:980][256]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/UI/FrameMaterial.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/UI/FrameMaterial.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.46:980][256]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/Devices/Generic: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/Devices/Generic' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.55:167][864]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineMaterials/FogVolumeMaterial.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineMaterials/FogVolumeMaterial.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.55:167][864]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EditorLandscapeResources/FoliageBrushSphereMaterial.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EditorLandscapeResources/FoliageBrushSphereMaterial.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.55:167][864]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EditorMaterials/Frac_ElementMaterial.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EditorMaterials/Frac_ElementMaterial.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.55:167][864]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/UI/FrameMaterial.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/UI/FrameMaterial.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.11.55:168][864]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/Devices/Generic: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/Devices/Generic' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.12.18:276][683]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineMaterials/FogVolumeMaterial.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineMaterials/FogVolumeMaterial.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.12.18:276][683]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EditorLandscapeResources/FoliageBrushSphereMaterial.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EditorLandscapeResources/FoliageBrushSphereMaterial.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.12.18:276][683]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EditorMaterials/Frac_ElementMaterial.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EditorMaterials/Frac_ElementMaterial.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.12.18:276][683]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/UI/FrameMaterial.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/UI/FrameMaterial.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.12.18:277][683]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/Devices/Generic: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/Devices/Generic' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.12.54:953][635]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/MapTemplates/Materials/BasicTemplateMaterial.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/MapTemplates/Materials/BasicTemplateMaterial.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.12.54:953][635]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineDebugMaterials: 'D:/unreal engine/UE_4.27/Engine/Content/EngineDebugMaterials' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.12.54:953][635]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineMaterials/BlinkingCaret.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineMaterials/BlinkingCaret.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.12.54:953][635]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EditorMaterials/Cloth/CameraLitDoubleSided.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EditorMaterials/Cloth/CameraLitDoubleSided.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.12.54:953][635]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EditorMaterials/Cascade: 'D:/unreal engine/UE_4.27/Engine/Content/EditorMaterials/Cascade' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.12.56:453][726]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.12.56:469][727]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/BufferVisualization: 'D:/unreal engine/UE_4.27/Engine/Content/BufferVisualization' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.12.56:488][728]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EditorLandscapeResources: 'D:/unreal engine/UE_4.27/Engine/Content/EditorLandscapeResources' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.12.56:529][729]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.12.56:614][732]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent: 'D:/unreal engine/UE_4.27/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.12.58:004][849]LogEditorTransaction: Undo Edit Static Mesh
+[2021.12.01-15.12.59:493][943]LogEditorTransaction: Undo Replace component used material
+[2021.12.01-15.13.00:743][ 46]LogEditorTransaction: Undo Edit Static Mesh
+[2021.12.01-15.13.01:820][137]LogEditorTransaction: Undo Replace component used material
+[2021.12.01-15.13.35:459][479]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.12.01-15.13.35:487][479]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/Map1_Auto398E5349146C6EC73D7BE9D968EB4D8A8.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/Autosaves/Game/FirstPersonBP/Maps/Map1_Auto3.umap'
+[2021.12.01-15.13.35:489][479]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonBP/Maps/Map1' took 0.069
+[2021.12.01-15.13.35:489][479]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.069
+[2021.12.01-15.13.35:489][479]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/ChoppedFoodB] ([2] browsable assets)...
+[2021.12.01-15.13.35:489][479]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/ChoppedFoodB]
+[2021.12.01-15.13.35:511][479]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/ChoppedFoodB_Auto3168B8ABC40184F6A78570595BDE52A09.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/Autosaves/Game/FirstPersonBP/Blueprints/ChoppedFoodB_Auto3.uasset'
+[2021.12.01-15.13.35:513][479]LogFileHelpers: Auto-saving content packages took 0.024
+[2021.12.01-15.13.56:211][449]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.13.56:211][449]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/BasicShapes: 'D:/unreal engine/UE_4.27/Engine/Content/BasicShapes' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.13.56:211][449]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/Cube.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/Cube.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.13.56:212][449]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.13.56:814][486]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.13.56:896][492]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/BackgroundCube.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/BackgroundCube.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.13.56:921][494]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EditorMeshes/Axis_Guide.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EditorMeshes/Axis_Guide.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.13.56:934][495]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EditorMeshes/ArcadeEditorSphere.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EditorMeshes/ArcadeEditorSphere.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.13.56:947][496]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EditorMeshes/AnimTreeEd_PreviewFloor.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EditorMeshes/AnimTreeEd_PreviewFloor.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.13.57:317][525]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1BoxCenterAligned.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1BoxCenterAligned.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.13.57:345][527]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.14.00:553][745]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.14.00:553][745]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/BasicShapes: 'D:/unreal engine/UE_4.27/Engine/Content/BasicShapes' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.14.00:554][745]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/Cube.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/EngineMeshes/Cube.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.14.00:554][745]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset: 'D:/unreal engine/UE_4.27/Engine/Content/VREditor/LaserPointer/CursorPointer.uasset' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.14.08:267][263]BlueprintLog: New page: Compile ChoppedFoodC
+[2021.12.01-15.14.08:325][263]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2021.12.01-15.14.09:151][311]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/ChoppedFoodC65D27A154AB74E7652270881FA1B470D.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Blueprints/ChoppedFoodC.uasset'
+[2021.12.01-15.14.09:161][311]AssetCheck: New page: Asset Save: ChoppedFoodC
+[2021.12.01-15.14.09:161][311]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/ChoppedFoodC.ChoppedFoodC
+[2021.12.01-15.15.29:075][112]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.01-15.15.29:079][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.01-15.15.29:079][112]PIE: New page: PIE session: Map1 (1 Dec 2021, 15:15:29)
+[2021.12.01-15.15.29:111][112]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_Map1
+[2021.12.01-15.15.29:126][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014772s)
+[2021.12.01-15.15.29:127][112]LogAIModule: Creating AISystem for world Map1
+[2021.12.01-15.15.29:127][112]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2021.12.01-15.15.29:127][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/Map1.Map1 to /Game/FirstPersonBP/Maps/UEDPIE_0_Map1.Map1 (0.015670s)
+[2021.12.01-15.15.29:167][112]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.12.01-15.15.29:168][112]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2021.12.01-15.15.29:168][112]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.01-15.15.29:168][112]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.01-15.15.29:168][112]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.01-15.15.29:168][112]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.01-15.15.29:168][112]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.01-15.15.29:168][112]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.01-15.15.29:168][112]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.01-15.15.29:168][112]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.01-15.15.29:168][112]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2021.12.01-15.15.29:168][112]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2021.12.01-15.15.29:168][112]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2021.12.01-15.15.29:168][112]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.01-15.15.29:175][112]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.01-15.15.29:175][112]LogAudioMixer: Display: 1: FrontRight
+[2021.12.01-15.15.29:186][112]LogAudioMixer: Display: Using Audio Device Index HMD (NVIDIA High Definition Audio)
+[2021.12.01-15.15.29:186][112]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.01-15.15.29:186][112]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.01-15.15.29:186][112]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.01-15.15.29:187][112]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.01-15.15.29:187][112]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.01-15.15.29:187][112]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.01-15.15.29:188][112]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.01-15.15.29:188][112]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.01-15.15.29:188][112]LogInit: FAudioDevice initialized.
+[2021.12.01-15.15.29:188][112]LogAudio: Display: Audio Device (ID: 42) registered with world 'Map1'.
+[2021.12.01-15.15.29:194][112]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.12.01-15.15.29:198][112]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2021.12.01-15.15.29
+[2021.12.01-15.15.29:198][112]LogWorld: Bringing up level for play took: 0.003915
+[2021.12.01-15.15.29:198][112]LogOnline: OSS: Creating online subsystem instance for: :Context_96
+[2021.12.01-15.15.29:201][112]PIE: Server logged in
+[2021.12.01-15.15.29:202][112]PIE: Play in editor total start time 0.123 seconds.
+[2021.12.01-15.15.31:569][392]LogScript: Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	Meat_C /Game/FirstPersonBP/Maps/UEDPIE_0_Map1.Map1:PersistentLevel.Meat_2
+	Function /Game/Objects/Food/Meat.Meat_C:ExecuteUbergraph_Meat:0255
+[2021.12.01-15.15.31:569][392]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Create_ReturnValue". Blueprint:  Meat Function:  Execute Ubergraph Meat Graph:  EventGraph Node:  Remove from Parent
+[2021.12.01-15.15.59:077][686]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=123.268 Y=-38.582 Z=223.793] for [Shark_actor_C]
+[2021.12.01-15.16.19:087][ 85]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=112.584 Y=-211.673 Z=252.495] for [Shark_actor_C]
+[2021.12.01-15.16.32:654][707]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-15.16.32:654][707]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_Map1
+[2021.12.01-15.16.32:655][707]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2021.12.01-15.16.32:655][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-15.16.32:666][707]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.01-15.16.32:685][707]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.01-15.16.32:716][707]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.12.01-15.16.32:717][707]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-15.16.32:719][707]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.12.01-15.16.32:721][707]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.01-15.16.32:724][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2021.12.01-15.16.32:875][708]LogPlayLevel: Display: Destroying online subsystem :Context_96
+[2021.12.01-15.17.39:271][538]LogSlate: Window 'Message Log' being destroyed
+[2021.12.01-15.17.39:275][538]LogSlate: Window 'Message Log' being destroyed
+[2021.12.01-15.18.19:370][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.12.01-15.18.21:601][295]LogSlate: Window 'Save Content' being destroyed
+[2021.12.01-15.18.23:886][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2021.12.01-15.18.24:096][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2021.12.01-15.18.24:127][536]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/Map165ECB7134C4CB0DF7576E48EBD433F08.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Maps/Map1.umap'
+[2021.12.01-15.18.24:132][536]LogFileHelpers: Saving map 'Map1' took 0.069
+[2021.12.01-15.18.24:140][536]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/ChoppedFoodBAA9BAF2745701D45A98D7FAA05C1EA7F.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Blueprints/ChoppedFoodB.uasset'
+[2021.12.01-15.18.24:154][536]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.01-15.18.24:155][536]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/ChoppedFoodB.ChoppedFoodB
+[2021.12.01-15.18.24:155][536]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/Map1.Map1
+[2021.12.01-15.18.28:272][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content: 'D:/unreal engine/UE_4.27/Engine/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:272][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/2D/Paper2D/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:272][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:272][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/FX/Niagara/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:273][961]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.01-15.18.28:748][961]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/BurntFood413214DD4B113681D0B503858324254C.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Blueprints/BurntFood.uasset'
+[2021.12.01-15.18.28:759][961]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/ChoppedFoodE69B68FB47D55FC458B598B596B63E88.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Blueprints/ChoppedFood.uasset'
+[2021.12.01-15.18.28:769][961]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/ChoppedFoodB4A9C876A42E1352DA95DF882AB7FC5A4.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Blueprints/ChoppedFoodB.uasset'
+[2021.12.01-15.18.28:779][961]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/ChoppedFoodCCC6C560145FA4BA1D45126ADF4E3524A.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Blueprints/ChoppedFoodC.uasset'
+[2021.12.01-15.18.28:790][961]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/CookedFoodBD408DCF41534184300B32BFAA6B576F.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Blueprints/CookedFood.uasset'
+[2021.12.01-15.18.28:799][961]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/RawFood9438C55A4675467AF8A04DB5B4A0B160.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Blueprints/RawFood.uasset'
+[2021.12.01-15.18.28:837][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2021.12.01-15.18.28:865][961]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/Map1409CC30C43DA1EDEF32661A690BA9ED3.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Maps/Map1.umap'
+[2021.12.01-15.18.28:871][961]LogFileHelpers: Saving map 'Map1' took 0.069
+[2021.12.01-15.18.36:278][961]LogSlate: Window 'Submit Files' being destroyed
+[2021.12.01-15.18.38:168][961]LogSourceControl: commit successful: [branch-3 dc0b403] throwable food models
+[2021.12.01-15.18.38:300][961]SourceControl: [branch-3 dc0b403] throwable food models
+[2021.12.01-15.18.38:300][961]SourceControl:  7 files changed, 0 insertions(+), 0 deletions(-)
+[2021.12.01-15.18.38:300][961]SourceControl:  rewrite fishygame/Content/FirstPersonBP/Blueprints/BurntFood.uasset (71%)
+[2021.12.01-15.18.38:300][961]SourceControl:  rewrite fishygame/Content/FirstPersonBP/Blueprints/ChoppedFood.uasset (73%)
+[2021.12.01-15.18.38:300][961]SourceControl:  rewrite fishygame/Content/FirstPersonBP/Blueprints/ChoppedFoodB.uasset (73%)
+[2021.12.01-15.18.38:300][961]SourceControl:  rewrite fishygame/Content/FirstPersonBP/Blueprints/ChoppedFoodC.uasset (77%)
+[2021.12.01-15.18.38:300][961]SourceControl:  rewrite fishygame/Content/FirstPersonBP/Blueprints/CookedFood.uasset (73%)
+[2021.12.01-15.18.38:300][961]SourceControl:  rewrite fishygame/Content/FirstPersonBP/Blueprints/RawFood.uasset (73%)
+[2021.12.01-15.18.38:307][961]SourceControl: Commited [branch-3 dc0b403] throwable food models.
+[2021.12.01-15.18.38:351][962]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.01-15.18.38:351][962]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/BurntFood.BurntFood
+[2021.12.01-15.18.38:351][962]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/ChoppedFood.ChoppedFood
+[2021.12.01-15.18.38:351][962]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/ChoppedFoodB.ChoppedFoodB
+[2021.12.01-15.18.38:351][962]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/ChoppedFoodC.ChoppedFoodC
+[2021.12.01-15.18.38:351][962]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/CookedFood.CookedFood
+[2021.12.01-15.18.38:351][962]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/RawFood.RawFood
+[2021.12.01-15.18.38:351][962]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/Map1.Map1
