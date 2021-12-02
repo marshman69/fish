@@ -2654,3 +2654,76 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.02-17.29.02:177][289]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD/Temp/Raw.Raw
 [2021.12.02-17.29.02:177][289]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD/Temp/CookedChopped.CookedChopped
 [2021.12.02-17.29.02:177][289]LogContentValidation: Display: Validating WidgetBlueprint /Game/HUD/Temp/Cooked.Cooked
+[2021.12.02-17.33.35:583][156]LogSlate: Took 0.017196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.12.02-17.34.21:637][180]BlueprintLog: New page: Compile Shark_actor
+[2021.12.02-17.34.21:718][180]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.12.02-17.34.22:238][219]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/Shark_actor76D3FD514A975A7C2B755BB57DFB6C16.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Blueprints/Shark_actor.uasset'
+[2021.12.02-17.34.22:248][219]AssetCheck: New page: Asset Save: Shark_actor
+[2021.12.02-17.34.22:248][219]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/Shark_actor.Shark_actor
+[2021.12.02-17.34.29:673][  5]BlueprintLog: New page: Compile Shark_actor
+[2021.12.02-17.34.29:732][  5]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2021.12.02-17.34.30:240][ 38]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/Shark_actor29F6F0644D8D01A62AA9DAB4C5FF1EF3.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Blueprints/Shark_actor.uasset'
+[2021.12.02-17.34.30:249][ 38]AssetCheck: New page: Asset Save: Shark_actor
+[2021.12.02-17.34.30:249][ 38]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/Shark_actor.Shark_actor
+[2021.12.02-17.34.35:557][590]LogSlate: Window 'RawChopped' being destroyed
+[2021.12.02-17.34.35:561][590]LogSlate: Window 'RawChopped' being destroyed
+[2021.12.02-17.34.35:563][590]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-17.34.35:563][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-17.34.35:601][590]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.02-17.34.35:601][590]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-17.34.35:601][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-17.34.35:641][590]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.02-17.34.35:641][590]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-17.34.35:641][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-17.34.35:682][590]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.02-17.34.35:682][590]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-17.34.35:682][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-17.34.35:719][590]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.02-17.34.35:719][590]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-17.34.35:719][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-17.34.35:762][590]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-17.34.35:762][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-17.34.35:766][590]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-17.34.35:766][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-17.34.35:797][590]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-17.34.35:797][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-17.34.35:801][590]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-17.34.35:801][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-17.34.35:829][590]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-17.34.35:829][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-17.34.35:833][590]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2021.12.02-17.34.35:833][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Content: 'D:/unreal engine/UE_4.27/Engine/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/2D/Paper2D/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/FX/Niagara/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:401][ 63]SourceControl: fatal: D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'D:/unreal engine/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/unreal engine levels/unreal engine level/FishGame/Clone1/FishGame'
+[2021.12.02-17.34.40:661][ 63]LogSavePackage: Moving '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Saved/Shark_actorD6B70A7D43C757ECC59CECA5BAA8FD8F.tmp' to '../../../../../unreal engine levels/unreal engine level/FishGame/Clone1/FishGame/fishygame/Content/FirstPersonBP/Blueprints/Shark_actor.uasset'
+[2021.12.02-17.34.47:931][ 63]LogSlate: Window 'Submit Files' being destroyed
+[2021.12.02-17.34.49:412][ 63]LogSourceControl: commit successful: [branch-10 d859bae] Small improvements
+[2021.12.02-17.34.49:445][ 63]SourceControl: [branch-10 d859bae] Small improvements
+[2021.12.02-17.34.49:445][ 63]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2021.12.02-17.34.49:451][ 63]SourceControl: Commited [branch-10 d859bae] Small improvements.
+[2021.12.02-17.34.49:496][ 64]AssetCheck: New page: Asset Save: Shark_actor
+[2021.12.02-17.34.49:497][ 64]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/Shark_actor.Shark_actor
